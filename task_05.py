@@ -7,11 +7,11 @@ MYINPUT = int(MYINPUT)
 
 if MYINPUT <= 89:
     BP_STATUS = 'Low'
-elif MYINPUT > 89 <= 119:
+elif 89 < MYINPUT <= 119:
     BP_STATUS = 'Ideal'
-elif MYINPUT > 119 <= 139:
+elif 119 < MYINPUT <= 139:
     BP_STATUS = 'Warning'
-elif MYINPUT > 139 <= 159:
+elif 139 < MYINPUT <= 159:
     BP_STATUS = 'High'
 else:
     BP_STATUS = 'Emergency'
