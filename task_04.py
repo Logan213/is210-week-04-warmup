@@ -6,7 +6,7 @@ MYINPUT = raw_input('Tell me a story! ')
 MAX_LENGTH = 80
 LONGSTR = 'short'
 
-INPUT_LENGTH = 12
+INPUT_LENGTH = len(MYINPUT)
 
 if INPUT_LENGTH > MAX_LENGTH:
     LONGSTR = 'long'
